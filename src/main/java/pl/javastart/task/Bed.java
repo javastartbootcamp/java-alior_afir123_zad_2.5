@@ -7,7 +7,7 @@ public class Bed {
 
     Bed(String col, int len, int wid) {
         color = col;
-        length =len;
+        length = len;
         width = wid;
     }
 
