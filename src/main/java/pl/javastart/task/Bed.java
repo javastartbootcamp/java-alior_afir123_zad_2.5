@@ -5,9 +5,10 @@ public class Bed {
     int length;
     int width;
 
-    // nie wiedziałem czy zapis w zadaniu "Klasa powinna posiadać konstruktor domyślny" oznacza,
-    // iż pownienem go zapisać, mimo iż jest on konstruowany domyślnie. równie dobrze poniższego konstruktora mogłoby nie być.
-    Bed() {
+    Bed(String col, int len, int wid) {
+        color = col;
+        length =len;
+        width = wid;
     }
 
     void printInfo() {
